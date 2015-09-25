@@ -394,4 +394,10 @@ public class AadlBaVisitors
       btl.set(j, tmp) ;
     }
   }
+  
+  public static void clearStaticMap()
+  {
+    _SRC_IN_TRANS.clear();
+    _IS_FRESH.clear();
+  }
 }
